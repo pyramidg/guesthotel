@@ -28,8 +28,8 @@
 		function Forecast(props) {
 			return (
 				<span>
-					<p>{props.degCInt}&#176; C / {props.degFInt}&#176; F</p>
-					<p>{props.condition}</p>
+					{props.degCInt}&#176; C / {props.degFInt}&#176; F
+					{props.condition}
 				</span>
 			)
 		}
