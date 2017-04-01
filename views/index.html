@@ -2,12 +2,13 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
   <meta charset="UTF-8">
   <title>Guest Hotel</title>
   <script src="js/angular.min.js"></script>
   <script src="js/controllers.js"></script>
   <link rel="stylesheet" href="css/style.css">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
   <header id="intro">
@@ -28,7 +29,7 @@
           <li><a class="icon rooms" href="#rooms"><span>rooms</span></a></li>
           <li><a class="icon dining" href="#dining"><span>dining</span></a></li>
           <li><a class="icon events" href="#events"><span>events</span></a></li>
-          <li><a class="icon attractions" href="#attractions"><span>attractions</span></a></li>
+          <li><a class="icon attractions" href="#socialmedia"><span>attractions</span></a></li>
         </ul>
       </div><!-- navbar -->
     </nav>
@@ -199,7 +200,7 @@
       <h1>Local Attractions</h1>
       <p>Whether you’re a theater enthusiast, enjoy epic shopping, or love to stroll and people watch, Atlanta’s East End has an endless opportunity to partake. The heart of Atlanta’s "Theatreland" offering the best in drama, comedy, and musical productions.</p>
     </article>
-    <article class="content" ng-if="!eventsList.showError">
+    <article class="content"   ng-if="!eventsList.showError">
         <h1>Upcoming Events in Atlanta</h1>
         <div class="main">
           <div class="search">
@@ -243,10 +244,13 @@
     </div>
   </article>
 </footer>
-  <script src="js/promise.min.js"></script>
-  <script src="js/fetch.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/jquery-3.1.1.min.js"></script>
- <script src="js/script2.js"></script>
+<script src="js/promise.min.js"></script>
+<script src="js/fetch.js"></script>
+<script src="js/babel.js"></script>
+<script src="js/react.js"></script>
+<script src="js/react-dom.js"></script>
+<script src="js/script.js"></script>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/script2.js" type="text/babel"></script>
 </body>
 </html>

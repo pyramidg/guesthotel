@@ -1,2 +1,2 @@
 # nodeJsExpress
-NodeJs Portfolio Demo
+NodeJs Hotel Demo
