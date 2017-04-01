@@ -27,10 +27,10 @@
 
 		function Forecast(props) {
 			return (
-				<div>
+				<span>
 					<p>{props.degCInt}&#176; C / {props.degFInt}&#176; F</p>
 					<p>{props.condition}</p>
-				</div>
+				</span>
 			)
 		}
 	}
@@ -84,7 +84,9 @@
 
 (function() {
 	var url = "http://api.openweathermap.org/data/2.5/weather?q=Atlanta,Georgia";
-	var apiKey = "fb3624d6f94d6533d8e593cf2a3fe40a"; // Replace "APIKEY" 
+	var apiKey = "fb3624d6f94d6533d8e593cf2a3fe40a"; // Replace "APIKEY"
+	var httpRequest;
+
 	makeRequest();
 
 	// create and send an XHR request
