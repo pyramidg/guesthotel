@@ -969,7 +969,7 @@ header #nav .navbar ul li a.active {
 @media (min-width: 960px) {
   /* line 11, ../../../components/sass/modules/_attractions.scss */
   #attractions article {
-    max-width: 50%;
+    max-width: auto;
     margin-left: auto;
     margin-right: auto;
   }
